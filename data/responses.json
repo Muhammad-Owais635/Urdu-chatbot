@@ -1,0 +1,10 @@
+{
+  "greeting": "وعلیکم السلام! میں آپ کی کس طرح مدد کر سکتا ہوں؟ (How can I help you today?)",
+  "order_status": "براہ کرم اپنا آرڈر نمبر بھیجیں تاکہ میں چیک کر سکوں۔ (Please share your order number so I can check its status.)",
+  "refund": "ریفنڈ کی درخواست کے لیے براہ کرم آرڈر نمبر اور وجہ بتائیں۔ (For a refund, please share your order number and the reason.)",
+  "complaint": "معذرت! براہ کرم مسئلے کی تفصیل بتائیں تاکہ ہم فوری مدد کر سکیں۔ (I'm sorry to hear that. Please describe the issue so we can help right away.)",
+  "pricing": "ہماری قیمتوں کی تفصیل ہماری ویب سائٹ پر موجود ہے، یا میں یہاں بتا سکتا ہوں۔ (Pricing details are on our website, or I can share them here — which product?)",
+  "human_handoff": "ٹھیک ہے، میں آپ کو ہمارے نمائندے سے جوڑ رہا ہوں۔ براہ کرم تھوڑا انتظار کریں۔ (Sure, connecting you to a human agent now — please hold.)",
+  "goodbye": "خدا حافظ! دوبارہ رابطہ کریں اگر کوئی مدد چاہیے ہو۔ (Goodbye! Reach out anytime you need help.)",
+  "unknown": "معذرت، میں سمجھ نہیں پایا۔ کیا آپ دوبارہ وضاحت کر سکتے ہیں؟ (Sorry, I didn't quite understand that. Could you rephrase?)"
+}
