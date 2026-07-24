@@ -1,0 +1,131 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Noto Nastaliq Urdu', system-ui, sans-serif;
+  background: #0F1226;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.chat-container {
+  width: 100%;
+  max-width: 480px;
+  background: #16193A;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  height: 640px;
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 20px;
+  background: #1D2150;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #D6A94A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.chat-header h1 {
+  color: #F3F0E6;
+  font-size: 16px;
+  margin: 0;
+}
+
+.subtitle {
+  color: #A9ACC9;
+  font-size: 12px;
+  margin: 2px 0 0;
+}
+
+.chat-log {
+  flex: 1;
+  padding: 18px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.message {
+  display: flex;
+}
+
+.message.bot { justify-content: flex-start; }
+.message.user { justify-content: flex-end; }
+
+.bubble {
+  max-width: 78%;
+  padding: 10px 14px;
+  border-radius: 14px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.message.bot .bubble {
+  background: #22265A;
+  color: #F3F0E6;
+  border-bottom-left-radius: 4px;
+}
+
+.message.user .bubble {
+  background: #D6A94A;
+  color: #16193A;
+  border-bottom-right-radius: 4px;
+}
+
+.meta {
+  font-size: 10px;
+  color: #6F7296;
+  margin-top: 4px;
+}
+
+.chat-input-row {
+  display: flex;
+  gap: 8px;
+  padding: 14px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  background: #1D2150;
+}
+
+#chat-input {
+  flex: 1;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 14px;
+  background: #0F1226;
+  color: #F3F0E6;
+  outline: none;
+}
+
+#chat-input::placeholder { color: #6F7296; }
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 18px;
+  background: #D6A94A;
+  color: #16193A;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover { opacity: 0.9; }
