@@ -1,4 +1,4 @@
-# 🤖 Urdu Customer Support Chatbot
+# Urdu Customer Support Chatbot
 
 A production-ready, bilingual (Roman Urdu + Urdu script) customer support chatbot with intent classification, session-based conversation memory, optional LLM-powered fallback, and a clean web chat UI — built with Flask and scikit-learn.
 
