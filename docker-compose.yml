@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  urdu-chatbot:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_DEBUG=false
+      - LLM_FALLBACK_ENABLED=false
+      # Uncomment and set to enable LLM fallback:
+      # - LLM_FALLBACK_ENABLED=true
+      # - OPENAI_API_KEY=your-key-here
+    volumes:
+      - ./logs:/app/logs
+    restart: unless-stopped
