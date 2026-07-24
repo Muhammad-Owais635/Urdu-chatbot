@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ur" dir="auto">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Urdu Customer Support Chatbot</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <div class="avatar">🤖</div>
+      <div>
+        <h1>Urdu Support Assistant</h1>
+        <p class="subtitle">Roman Urdu &amp; اردو دونوں میں بات کریں</p>
+      </div>
+    </div>
+
+    <div id="chat-log" class="chat-log">
+      <div class="message bot">
+        <div class="bubble">وعلیکم السلام! میں آپ کی کس طرح مدد کر سکتا ہوں؟ (How can I help you today?)</div>
+      </div>
+    </div>
+
+    <form id="chat-form" class="chat-input-row">
+      <input
+        id="chat-input"
+        type="text"
+        placeholder="Type here in Roman Urdu or اردو..."
+        autocomplete="off"
+        required
+      />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="{{ url_for('static', filename='chat.js') }}"></script>
+</body>
+</html>
